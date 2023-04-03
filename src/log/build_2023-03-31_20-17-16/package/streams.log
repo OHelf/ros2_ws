@@ -1,0 +1,21 @@
+[0.031s] Invoking command in '/home/owen/ros2_ws/src/build/package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/owen/ros2_ws/src/build/package -- -j2 -l2
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[0.211s] [ 50%] Built target subscriber_node
+[0.214s] [100%] Built target publisher_node
+[0.238s] Invoked command in '/home/owen/ros2_ws/src/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/owen/ros2_ws/src/build/package -- -j2 -l2
+[0.297s] Invoking command in '/home/owen/ros2_ws/src/build/package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/owen/ros2_ws/src/build/package
+[0.317s] -- Install configuration: ""
+[0.319s] -- Execute custom install script
+[0.323s] -- Up-to-date symlink: /home/owen/ros2_ws/src/install/package/lib/package/publisher_node
+[0.323s] -- Up-to-date symlink: /home/owen/ros2_ws/src/install/package/lib/package/subscriber_node
+[0.324s] -- Symlinking: /home/owen/ros2_ws/src/install/package//package.xml
+[0.341s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:158 (message):
+[0.341s]   ament_cmake_symlink_install_files() can't find
+[0.341s]   '/home/owen/ros2_ws/src/package/DSTINATION'
+[0.341s] Call Stack (most recent call first):
+[0.342s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320 (ament_cmake_symlink_install_files)
+[0.342s]   cmake_install.cmake:46 (include)
+[0.342s] 
+[0.342s] [0m
+[0.344s] Invoked command in '/home/owen/ros2_ws/src/build/package' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/owen/ros2_ws/src/build/package

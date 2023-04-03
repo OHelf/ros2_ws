@@ -1,0 +1,50 @@
+[0.013s] Invoking command in '/home/owen/ros2_ws/src/build/package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/owen/ros2_ws/src/build/package -- -j2 -l2
+[0.058s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.251s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.284s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.337s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.345s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.366s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.499s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.504s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.689s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.918s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.013s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.013s] -- Configured cppcheck include dirs: 
+[1.013s] -- Configured cppcheck exclude dirs and/or files: 
+[1.014s] -- Added test 'lint_cmake' to check CMake code style
+[1.016s] -- Added test 'uncrustify' to check C / C++ code style
+[1.016s] -- Configured uncrustify additional arguments: 
+[1.016s] -- Added test 'xmllint' to check XML markup files
+[1.023s] -- Configuring done
+[1.050s] -- Generating done
+[1.052s] -- Build files have been written to: /home/owen/ros2_ws/src/build/package
+[1.088s] [35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[1.102s] [35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[1.128s] [ 50%] Built target subscriber_node
+[1.137s] [100%] Built target publisher_node
+[1.151s] Invoked command in '/home/owen/ros2_ws/src/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/owen/ros2_ws/src/build/package -- -j2 -l2
+[1.187s] Invoking command in '/home/owen/ros2_ws/src/build/package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/owen/ros2_ws/src/build/package
+[1.196s] -- Install configuration: ""
+[1.196s] -- Execute custom install script
+[1.196s] -- Up-to-date symlink: /home/owen/ros2_ws/src/install/package/lib/package/publisher_node
+[1.196s] -- Up-to-date symlink: /home/owen/ros2_ws/src/install/package/lib/package/subscriber_node
+[1.196s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/package.xml
+[1.216s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/ament_index/resource_index/package_run_dependencies/package
+[1.232s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/ament_index/resource_index/parent_prefix_path/package
+[1.241s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/environment/ament_prefix_path.sh
+[1.254s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/environment/ament_prefix_path.dsv
+[1.263s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/environment/path.sh
+[1.277s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/environment/path.dsv
+[1.285s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/local_setup.bash
+[1.293s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/local_setup.sh
+[1.301s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/local_setup.zsh
+[1.317s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/local_setup.dsv
+[1.333s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/package.dsv
+[1.345s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/ament_index/resource_index/packages/package
+[1.354s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/cmake/packageConfig.cmake
+[1.363s] -- Symlinking: /home/owen/ros2_ws/src/install/package/share/package/cmake/packageConfig-version.cmake
+[1.371s] -- Up-to-date symlink: /home/owen/ros2_ws/src/install/package/share/package/package.xml
+[1.373s] Invoked command in '/home/owen/ros2_ws/src/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/owen/ros2_ws/src/build/package

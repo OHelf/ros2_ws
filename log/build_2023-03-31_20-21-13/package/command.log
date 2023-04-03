@@ -1,0 +1,6 @@
+Invoking command in '/home/owen/ros2_ws/build/package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/owen/ros2_ws/src/package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/owen/ros2_ws/install/package
+Invoked command in '/home/owen/ros2_ws/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/owen/ros2_ws/src/package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/owen/ros2_ws/install/package
+Invoking command in '/home/owen/ros2_ws/build/package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/owen/ros2_ws/build/package -- -j2 -l2
+Invoked command in '/home/owen/ros2_ws/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/owen/ros2_ws/build/package -- -j2 -l2
+Invoking command in '/home/owen/ros2_ws/build/package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/owen/ros2_ws/build/package
+Invoked command in '/home/owen/ros2_ws/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/owen/ros2_ws/build/package
